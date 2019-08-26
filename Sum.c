@@ -3,8 +3,7 @@
 int main()
 {
   int arr[50];
-  int start,end;
-  int i,sum=0,n;
+  int start,end,i,sum=0,n;
   
   printf("Enter the size of array :"); 
   scanf("%d",&n);
@@ -21,6 +20,5 @@ int main()
     sum=sum+arr[i];
   }
   
-  printf("Sum is %d \n",sum);
-    
+  printf("Sum is %d \n",sum);  
 }
